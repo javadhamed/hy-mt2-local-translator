@@ -1,0 +1,19 @@
+# Build artifacts
+bin/
+build/
+*.dylib
+*.so
+*.dll
+
+# Models (large files)
+*.gguf
+*.bin
+
+# Temporary
+/tmp/
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
